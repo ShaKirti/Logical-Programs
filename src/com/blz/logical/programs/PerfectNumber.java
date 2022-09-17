@@ -7,7 +7,6 @@ public class PerfectNumber {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number:");
         int num = scanner.nextInt();
-
         int i =1;  // initializes the i
         while (i<=num/2){
             if(num%i==0){
